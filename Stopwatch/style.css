@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+body {
+    font-family: 'Poppins', 'Roboto', sans-serif;
+}
+
+#timeContainer {
+    text-align: center;
+    border: 3px solid;
+    display: absolute;
+    border-radius: 10px;
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+}
+
+#timeDisplay {
+    font-size: 75px;
+}
+
+.timerBtn {
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    border: 5px solid;
+    border-radius: 20px;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    cursor: pointer;
+    background-color: lightgray;
+}
